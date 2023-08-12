@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Header Styles */
+header {
+    background-color: #29303b;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link.active {
+    color: #ffaa00;
+    animation: glowing 1s infinite;
+}
+
+/* Main Content Styles */
+.main-headlines {
+    /* Styles for main headlines section */
+}
+
+.grid-news {
+    /* Styles for grid of news stories section */
+}
+
+/* Other section styles */
+/* Add your styles for individual sections as needed */
+
+/* Footer Styles */
+footer {
+    background-color: #29303b;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Glowing animation */
+@keyframes glowing {
+    0% { box-shadow: 0 0 10px #ffaa00; }
+    50% { box-shadow: 0 0 20px #ffaa00; }
+    100% { box-shadow: 0 0 10px #ffaa00; }
+}
